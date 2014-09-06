@@ -16,10 +16,14 @@
 		}
 	],
 	"minimum-stability": "dev",
-	"repositories": [
+	"packages": [
 		{
-			"type": "vcs",
-			"url": "https://github.com/ircmaxell/PHP-CryptLib"
+    			"name": "CryptLib/CryptLib",
+    			"version": "0.0.1-alpha1",
+    			"dist": {
+        			"url": "https://github.com/ircmaxell/PHP-CryptLib/archive/master.zip",
+        			"type": "zip"
+    			}
 		}
 	],
 	"require": {
